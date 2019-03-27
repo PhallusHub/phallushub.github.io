@@ -1,2 +1,2 @@
 # Artridge
-https://art-ridge.github.io/games
+[Games](/games)
