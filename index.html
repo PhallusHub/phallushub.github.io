@@ -9,13 +9,23 @@
 	</head>
 	<body class="is-preload">
 	<style>
-		position:relative;
-		top:50%;
-		left:50%;
-		transform:translatey(-50%) translatex(-25%);
-		text-decoration:none;
-		z-index:10000;
-		color:#fff;
+		.our-games {
+			text-decoration: none;
+			z-index: 10000;
+			color: #fff;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translatey(-50%) translatex(-50%);
+		}
+		@media only screen and (orientation: landscape) {
+			.our-games {
+				position: relative;
+				top: 50%;
+				left: 50%;
+				transform: translatey(-50%) translatex(-25%);
+			}
+		}
 	</style>
 		<!-- Wrapper-->
 			<div id="wrapper">
