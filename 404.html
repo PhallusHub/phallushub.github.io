@@ -36,17 +36,9 @@ permalink: /404.html
 	}
 
 	/* bg shortcodes */
-	.bg-gradient1 span,
+	.bg-gradient1 .span,
 	.bg-gradient1:before {
 		@include gradientBg(#52A0FD, #00e2fa);
-	}
-	.bg-gradient2 span,
-	.bg-gradient2:before {
-		@include gradientBg(#44ea76, #39fad7);
-	}
-	.bg-gradient3 span,
-	.bg-gradient3:before {
-		@include gradientBg(#fa6c9f, #ffe140);
 	}
 
 	/* General */
@@ -56,7 +48,7 @@ permalink: /404.html
 		transform-style: perserve-3d;
 		perspecive: 800px;
 	}
-	a {
+	.a {
 		text-decoration: none;
 
 		&:hover,
@@ -91,13 +83,13 @@ permalink: /404.html
 		transform-style: preserve-3d;
 		transition: all 0.3s ease-out;
 	}
-	i {
+	.i {
 		margin-top: -1px;
 		margin-right: 20px;
 		font-size: 1.265em;
 		vertical-align: middle;
 	}
-	span {
+	.span {
 		display: inline-block;
 		padding: 18px 60px;
 		border-radius: 50em;
@@ -114,7 +106,7 @@ permalink: /404.html
 	&:hover {
 		color: #ffffff;
 		
-		span {
+		.span {
 			filter: brightness(1.05) contrast(1.05);
 			transform: scale(0.95);
 		}
@@ -136,12 +128,12 @@ permalink: /404.html
 				opacity: 1;
 				filter: blur(20px);
 			}
-			span {
+			.span {
 				transform: scale(1.04);
 			}
 			&:active {
 				
-				span {
+				.span {
 					filter: brightness(1) contrast(1);
 					transform: scale(1);
 					transition: all 0.15s ease-out;
@@ -167,7 +159,7 @@ permalink: /404.html
 				<h1><span>4</span><span>0</span><span>4</span></h1>
 			</div>
 			<h2>we are sorry, but the page you requested was not found</h2>
-			<a href="https://art-ridge.github.io" class="fancy-button pop-onhover bg-gradient1"><span>Get me back to a safe place</span></a>
+			<a href="https://art-ridge.github.io" class="a fancy-button pop-onhover bg-gradient1"><span class="span">Get me back to a safe place</span></a>
 		</div>
 	</div>
 
