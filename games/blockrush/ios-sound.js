@@ -26,7 +26,7 @@
     'right: 0',
     'bottom: 0',
     'background: rgba(255, 255, 255, 0.5)',
-    'background-image: url(https://oskar-codes.github.io/Dodge/45D35450-AA26-4BF2-9B2B-63743933DBD1.png)',
+    'background-image: url(https://art-ridge.github.io/games/dodge/A044EB12-657D-4C63-B5D5-572571CB5B55.png)',
     'background-repeat: no-repeat',
     'background-attachment: fixed',
     'background-position: 50% 30%',
